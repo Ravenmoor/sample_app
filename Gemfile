@@ -8,6 +8,9 @@ gem 'rails', '3.2.3'
 gem 'mysql2'
 gem 'haml'
 gem 'compass'
+gem 'respec'
+gem 'rspec-rails'
+gem 'webrat'
 
 
 # Gems used only for assets and not required
@@ -22,15 +25,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
-
-group :development do
-	gem 'rspec-rails'
-end
-
-group :test do
-	gem 'rspec'
-end
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
