@@ -11,6 +11,10 @@ gem 'compass'
 gem 'respec'
 gem 'rspec-rails'
 gem 'webrat'
+gem 'ZenTest'
+gem 'growl'
+gem 'rb-fsevent'
+gem 'guard-rspec'
 
 
 # Gems used only for assets and not required
